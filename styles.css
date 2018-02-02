@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+p {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.introduction{
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+    max-width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body,
+.introduction,
+.images {
+    background-color: #C2D1D9;
+}
+
+.logo {
+    background-color: #427B9A;
+}
+
+.tempparagraph{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    max-width: 813px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    display: block;
+    margin-bottom: 25px;
+}
+
+
+figcaption {
+    padding: 8px;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 14px;
+    color: #494949;
+}
+
+.section-navigation {
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: #98B3C2;
+}
+
+.section-navigation li {
+    display: inline-block;
+}
+
+.section-navigation li a {
+    display: block;
+    background-color: #98B3C2;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+.section-navigation li a:hover {
+    background-color: #427B9A;
+    color: lightgray;
+}
+
+
+.illustration img {
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header ,
+.social-media{
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media,
+.header,
+.content,
+body{
+    background-color: #C2D1D9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

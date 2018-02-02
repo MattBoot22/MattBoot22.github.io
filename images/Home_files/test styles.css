@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.illustration img {
+    width: 100%;
+    display: block;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: darkgray;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.content {
+    background-color: lightgray;
+    height: 600px;
+}
+
+.sign-up {
+    background-color: darkgray;
+}
+
+.feature-1 {
+    background-color: lightgray;
+}
+#youtube {
+    margin-left: 31em;
+    float: left;
+    height: 120px;
+    width: 160px;
+    margin-right: 23em;
+    margin-bottom: 0.5em;
+}
+
+.feature-2 {
+    background-color: darkgray;
+}
+
+.feature-3 {
+    background-color: lightgray;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color: lightgray;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightgray;
+
+    }
+    p {
+        text-align: center;
+        font-family: 'Hind Vadodara', sans-serif;
+        max-width: 12em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .header {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        height: 440px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 50%;
+    }
+    p {
+        text-align: center;
+        font-family: 'Hind Vadodara', sans-serif;
+        max-width: 12em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .header {
+        height: 250px;
+    }
+    .content.content {
+        height: 490px;
+    }
+    .logo {
+        background-color: lightgray;
+    }
+}
+
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* This is the ul */
+.main-navigation {
+    text-align: right;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.main-navigation li {
+    display: inline-block;
+}
+
+.main-navigation li a {
+    display: block;
+    background-color: rgb(177, 178, 182);
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+.main-navigation li a:hover {
+    background-color: darkgray;
+}
+
+figure {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    display: block;
+}
+
+figcaption {
+    padding: 8px;
+}
+
+p {
+     text-align: center;
+     font-family: 'Hind Vadodara', sans-serif;
+     max-width: 75em;
+}
+
+.logo {
+    height: 100px;
+}
